@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="/public/css/style.css">
 
  </head>
 <body>
@@ -34,7 +34,7 @@
       <div class="row">
         <div class="input-field col s6">
           <i class="large material-icons prefix">account_circle</i>
-          <input id="icon_prefix" type="text" class="validate" id="name">
+          <input type="text" class="validate" id="name">
           <label for="icon_prefix">Name (Required)</label>
         </div>
       </div>
@@ -48,7 +48,7 @@
       <div class="row">
         <div class="input-field col s6">
           <i class="material-icons prefix">image</i>
-          <input id="icon_prefix" type="text" class="validate" id="photo">
+          <input type="text" class="validate" id="photo">
           <label for="icon_prefix">Link to Photo Image (Required)</label>
         </div>
       </div>
@@ -59,10 +59,10 @@
 <!-- 10 Survey Questions -->
 
 <div class="container">
-  <div class="row" id="question1">    
+  <div class="row">    
 <label><h3>Question 1</h3></label>
   <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
-  <select class="browser-default">
+  <select class="browser-default" id="question1">
     <option value="" disabled selected>Choose your option</option>
     <option value="1">1 ::Strongly Disagree::</option>
     <option value="2">2</option>
@@ -74,10 +74,10 @@
 </div>
 
 <div class="container">
-<div class="row" id="question2">
+<div class="row">
 <label><h3>Question 2</h3></label>
   <h5>Generally speaking, you rely more on your experience than your imagination.</h5>
-  <select class="browser-default">
+  <select class="browser-default" id="question2">
     <option value="" disabled selected>Choose your option</option>
     <option value="1">1 ::Strongly Disagree::</option>
     <option value="2">2</option>
@@ -89,10 +89,10 @@
 </div>
 
 <div class="container">
-<div class="row" id="question3">
+<div class="row">
 <label><h3>Question 3</h3></label>
   <h5>You find it easy to stay relaxed and focused even when there is some pressure.</h5>
-  <select class="browser-default">
+  <select class="browser-default" id="question3">
     <option value="" disabled selected>Choose your option</option>
     <option value="1">1 ::Strongly Disagree::</option>
     <option value="2">2</option>
@@ -104,10 +104,10 @@
 </div>
 
 <div class="container">
-<div class="row" id="question4">
+<div class="row">
 <label><h3>Question 4</h3></label>
   <h5>You rarely do something just out of sheer curiosity.</h5>
-  <select class="browser-default">
+  <select class="browser-default" id="question4">
     <option value="" disabled selected>Choose your option</option>
     <option value="1">1 ::Strongly Disagree::</option>
     <option value="2">2</option>
@@ -119,10 +119,10 @@
 </div>
 
 <div class="container">
-<div class="row" id="question5">
+<div class="row">
 <label><h3>Question 5</h3></label>
   <h5>People can rarely upset you.</h5>
-  <select class="browser-default">
+  <select class="browser-default" id="question5">
     <option value="" disabled selected>Choose your option</option>
     <option value="1">1 ::Strongly Disagree::</option>
     <option value="2">2</option>
@@ -134,10 +134,10 @@
 </div>
 
 <div class="container">
-<div class="row" id="question6">
+<div class="row">
 <label><h3>Question 6</h3></label>
   <h5>It is often difficult for you to relate to other people’s feelings.</h5>
-  <select class="browser-default">
+  <select class="browser-default" id="question6">
     <option value="" disabled selected>Choose your option</option>
     <option value="1">1 ::Strongly Disagree::</option>
     <option value="2">2</option>
@@ -149,10 +149,10 @@
 </div>
 
 <div class="container">
-<div class="row" id="question7">
+<div class="row">
 <label><h3>Question 7</h3></label>
   <h5>In a discussion, truth should be more important than people’s sensitivities.</h5>
-  <select class="browser-default">
+  <select class="browser-default" id="question7">
     <option value="" disabled selected>Choose your option</option>
     <option value="1">1 ::Strongly Disagree::</option>
     <option value="2">2</option>
@@ -164,10 +164,10 @@
 </div>
 
 <div class="container">
-<div class="row" id="question8">
+<div class="row">
 <label><h3>Question 8</h3></label>
   <h5>You rarely get carried away by fantasies and ideas.</h5>
-  <select class="browser-default">
+  <select class="browser-default" id="question8">
     <option value="" disabled selected>Choose your option</option>
     <option value="1">1 ::Strongly Disagree::</option>
     <option value="2">2</option>
@@ -179,10 +179,10 @@
 </div>
 
 <div class="container">
-<div class="row" id="question9">
+<div class="row">
 <label><h3>Question 9</h3></label>
   <h5>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h5>
-  <select class="browser-default">
+  <select class="browser-default" id="question9">
     <option value="" disabled selected>Choose your option</option>
     <option value="1">1 ::Strongly Disagree::</option>
     <option value="2">2</option>
@@ -194,10 +194,10 @@
 </div>
 
 <div class="container">
-<div class="row" id="question10">
+<div class="row">
 <label><h3>Question 10</h3></label>
   <h5>You feel more energetic after spending time with a group of people.</h5>
-  <select class="browser-default">
+  <select class="browser-default" id="question10">
     <option value="" disabled selected>Choose your option</option>
     <option value="1">1 ::Strongly Disagree::</option>
     <option value="2">2</option>
@@ -209,8 +209,8 @@
 </div>
 
 <div class="container">
-  <div class="row" id="button">
-  <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Submit
+  <div class="row">
+  <button class="btn waves-effect waves-light btn-large" type="submit" id="submit-btn" name="action">Submit
     <i class="material-icons right">send</i>
   </button>
 </div>
@@ -228,8 +228,11 @@
 <!-- JavaScript -->
 <script type="text/javascript">
 
-//Submit button onClick    
-  $("#button").on("click", function(event) {
+
+//will run when jquery is ready
+$(function() {
+  //Submit button onClick    
+  $("#submit-btn").on("click", function(event) {
     event.preventDefault();  
 
 //Grab users input from survey. 
@@ -250,10 +253,11 @@
     };
     console.log(friendInput);
 
-    $post("/api/friends", friendInput)
+    $.post("/api/friends", friendInput)
       .done(function(data){
-        alert("This is a test");
+        console.log(data);
       }); 
     });
+})
 
 </script>

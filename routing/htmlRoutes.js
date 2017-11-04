@@ -8,10 +8,10 @@ module.exports = function(app) {
 
 	//GET route to survey.html page.
 	app.get("/survey", function(req, res) {
-		res.sendFile(path.join(__dirname, "../homework/friendfinder/app/public/survey.html"));
+		res.sendFile(path.join(__dirname, "../public/survey.html"));
 	});
 	//GET route to home.html page.
 	app.get("/home", function(req, res) {
-		res.sendFile(path.join(__dirname, "../homework/friendfinder/app/public/home.html"));
+		res.sendFile(path.join(__dirname, "../public/home.html"));
 	});
 }

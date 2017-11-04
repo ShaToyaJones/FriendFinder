@@ -4,8 +4,8 @@
   "description": "full-stack compability-based site",
   "main": "server.js",
   "dependencies": {
-    "mysql": "^2.15.0",
-    "package.json": "^2.0.1"
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",    
   },
   "devDependencies": {},
   "scripts": {
