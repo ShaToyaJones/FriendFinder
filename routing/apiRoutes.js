@@ -15,6 +15,9 @@ module.exports = function(app) {
 		//Handle the compatility logic.
 	app.post("/api/friends", function(req, res) {
 	console.log(req.body);
+	var friendInput = req.body;
+	console.log("friendInput = " + JSON.stringify(friendInput));
+
 	});
 
 
