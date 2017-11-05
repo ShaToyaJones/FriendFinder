@@ -14,6 +14,7 @@ var friendsArray = [{
 	"5"
 	]
 };
+{
 
 	"name": "Toya2",
 	"photo": "imagexyztwo.img",
@@ -30,6 +31,7 @@ var friendsArray = [{
 	"1"
 	]
 };
+{
 	"name": "Toya3",
 	"photo": "imagexyzthree.img",
 	"scores": [
