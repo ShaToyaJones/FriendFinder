@@ -1,1 +1,1 @@
-<?php include_once("../Homework/FriendFinder/public/home.html"); ?>
+<?php include_once("../FriendFinder/public/home.html"); ?>
