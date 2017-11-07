@@ -20,14 +20,24 @@ module.exports = function(app) {
 	res.json({ success : true });
 //handle incoming survey results
 
+var incomingRes = "scores"; 
+var bestMatch = 
+var scores = 
+
 
 //loop through friends array (already have)
 for (var i = 0; i < friendsArray.length; i++) {
-	friendsArray[i]
-	if (friendsArray) {}
+	console.log(friendsArray[i].name);
+
+	if () {}
+	
+
+	for (var j = 0; i < scores.length; i++) {
+		scores[i]
+	}
 }
 //insert some dummy data
-//for all scores in that friend
+//for all scores in that friend <<<DONE
 //take the difference 
 
 
