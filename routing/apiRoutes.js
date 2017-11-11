@@ -20,9 +20,9 @@ module.exports = function(app) {
 	res.json({ success : true });
 //handle incoming survey results
 
-var incomingRes = "scores"; 
-var bestMatch = 
-var scores = 
+// var incomingRes = "scores"; 
+// var bestMatch = 
+// var scores = 
 
 
 //loop through friends array (already have)
