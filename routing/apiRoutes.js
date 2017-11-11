@@ -26,16 +26,16 @@ module.exports = function(app) {
 
 
 //loop through friends array (already have)
-for (var i = 0; i < friendsArray.length; i++) {
-	console.log(friendsArray[i].name);
+// for (var i = 0; i < friendsArray.length; i++) {
+// 	console.log(friendsArray[i].name);
 
-	if () {}
+// 	if () {}
 	
 
-	for (var j = 0; i < scores.length; i++) {
-		scores[i]
-	}
-}
+// 	for (var j = 0; i < scores.length; i++) {
+// 		scores[i]
+// 	}
+// }
 //insert some dummy data
 //for all scores in that friend <<<DONE
 //take the difference 
@@ -48,6 +48,4 @@ for (var i = 0; i < friendsArray.length; i++) {
 
 
 }
-
-
 
