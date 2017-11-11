@@ -13,7 +13,7 @@ var friendsArray = [{
 	"1",
 	"5"
 	]
-};
+},
 {
 
 	"name": "Toya2",
@@ -30,7 +30,7 @@ var friendsArray = [{
 	"1",
 	"1"
 	]
-};
+},
 {
 	"name": "Toya3",
 	"photo": "imagexyzthree.img",
